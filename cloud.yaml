@@ -1,0 +1,11 @@
+clouds:
+  cloud:
+    auth:
+      auth_url:     "http://198.18.148.124:35357/v2.0/"
+      username:     "admin"
+      password:     "contrail123"
+      project_name: "admin"
+    interface:     "admin"
+    endpoint-type: "admin"
+application_repository: "https://localhost/Applications/{{application}}/raw/master/"
+inventory_repository:   "https://localhost/Tools/environments/raw/master/cloud.yaml"
